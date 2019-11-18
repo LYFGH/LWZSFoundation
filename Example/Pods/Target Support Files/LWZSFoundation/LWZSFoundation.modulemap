@@ -1,0 +1,6 @@
+framework module LWZSFoundation {
+  umbrella header "LWZSFoundation-umbrella.h"
+
+  export *
+  module * { export * }
+}

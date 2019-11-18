@@ -1,0 +1,52 @@
+{
+  "name": "LWZSFoundation",
+  "version": "0.1.3",
+  "summary": "LWZSFoundation Packages",
+  "description": "LWZSFoundation Packages",
+  "homepage": "https://github.com/LYFGH/LWZSFoundation",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "LYFGH": "yafei_v5@163.com"
+  },
+  "source": {
+    "git": "https://github.com/LYFGH/LWZSFoundation.git",
+    "tag": "0.1.3"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "subspecs": [
+    {
+      "name": "Array",
+      "source_files": "LWZSFoundation/Classes/Array/*.{swift}",
+      "dependencies": {
+        "LWZSFoundation/String": [
+
+        ]
+      }
+    },
+    {
+      "name": "Data",
+      "source_files": "LWZSFoundation/Classes/Data/*.{swift}"
+    },
+    {
+      "name": "Date",
+      "source_files": "LWZSFoundation/Classes/Date/*.{swift}"
+    },
+    {
+      "name": "Dictionary",
+      "source_files": "LWZSFoundation/Classes/Dictionary/*.{swift}"
+    },
+    {
+      "name": "NotificationCenter",
+      "source_files": "LWZSFoundation/Classes/NotificationCenter/*.{swift}"
+    },
+    {
+      "name": "String",
+      "source_files": "LWZSFoundation/Classes/String/*.{swift}"
+    }
+  ]
+}

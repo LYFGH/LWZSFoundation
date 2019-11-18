@@ -28,11 +28,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		19D7AFFE98939560E9BFEAA0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		19D7AFFE98939560E9BFEAA0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		21582EB7ED6BE4B2935E2C17 /* Pods-LWZSFoundation_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LWZSFoundation_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LWZSFoundation_Tests/Pods-LWZSFoundation_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		259116FAF21620C6E0AEA265 /* Pods-LWZSFoundation_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LWZSFoundation_Example.release.xcconfig"; path = "Target Support Files/Pods-LWZSFoundation_Example/Pods-LWZSFoundation_Example.release.xcconfig"; sourceTree = "<group>"; };
-		282100470007F2CF7C46E6CF /* LWZSFoundation.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LWZSFoundation.podspec; path = ../LWZSFoundation.podspec; sourceTree = "<group>"; };
-		5533BD419DE3EABE6D092823 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		282100470007F2CF7C46E6CF /* LWZSFoundation.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LWZSFoundation.podspec; path = ../LWZSFoundation.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5533BD419DE3EABE6D092823 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		5EE6C99C6B19E638CB45D759 /* Pods_LWZSFoundation_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LWZSFoundation_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* LWZSFoundation_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LWZSFoundation_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -156,7 +156,6 @@
 				21582EB7ED6BE4B2935E2C17 /* Pods-LWZSFoundation_Tests.debug.xcconfig */,
 				96E15D96462222D735299C04 /* Pods-LWZSFoundation_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

@@ -1,0 +1,29 @@
+PODS:
+  - LWZSFoundation (0.1.3):
+    - LWZSFoundation/Array (= 0.1.3)
+    - LWZSFoundation/Data (= 0.1.3)
+    - LWZSFoundation/Date (= 0.1.3)
+    - LWZSFoundation/Dictionary (= 0.1.3)
+    - LWZSFoundation/NotificationCenter (= 0.1.3)
+    - LWZSFoundation/String (= 0.1.3)
+  - LWZSFoundation/Array (0.1.3):
+    - LWZSFoundation/String
+  - LWZSFoundation/Data (0.1.3)
+  - LWZSFoundation/Date (0.1.3)
+  - LWZSFoundation/Dictionary (0.1.3)
+  - LWZSFoundation/NotificationCenter (0.1.3)
+  - LWZSFoundation/String (0.1.3)
+
+DEPENDENCIES:
+  - LWZSFoundation (from `../`)
+
+EXTERNAL SOURCES:
+  LWZSFoundation:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LWZSFoundation: ba34e351d29ae42c08ac5be03bf093a9fde5ccf7
+
+PODFILE CHECKSUM: 3d58b21806910aa87f7214df2a290da1e2c7aa9d
+
+COCOAPODS: 1.8.4
