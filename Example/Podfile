@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LWZSFoundation_Example' do
+  pod 'LWZSFoundation', :path => '../'
+
+  target 'LWZSFoundation_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
